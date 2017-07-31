@@ -19,7 +19,7 @@ public class PrimeService {
 	}
 	private static List<Integer> getPrimes(int n){
 		System.out.println("--Generating Primes--");
-		List<Integer> list = new ArrayList<>();
+		List<Integer> list = new ArrayList<Integer>();
 		for(int i=1;i<=n;i++){
 			if(isPrime(i)){
 				list.add(i);
